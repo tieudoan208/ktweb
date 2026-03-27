@@ -1,0 +1,96 @@
+﻿.ui-widget {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1em !important;
+}
+
+.slick-resizable-handle {
+    box-shadow: none !important;
+}
+
+.slick-header-column {
+    height: auto !important;
+    line-height: 1.6em !important;
+    padding: 6px;
+    border-right: 1px solid silver;
+    border-left: 0px !important;
+    border-top: 1px !important;
+    border-bottom: 1px !important;
+    color: white;
+    text-align: center;
+    font-size: 15px !important;
+    background-color: #0066b3 !important;
+}
+
+.slick-header-columns {
+    /*  height: 35px !important;  Container chứa các cột */
+}
+
+.slick-column-name {
+    width: 100% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.slick-cell,
+.slick-headerrow-column,
+.slick-footerrow-column {
+    position: absolute;
+    border: 1px solid transparent;
+    border-right: 1px dotted silver;
+    border-bottom-color: silver;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    z-index: 1;
+    padding: 1px 2px 1px 2px !important;
+    margin: 0;
+    white-space: nowrap;
+    cursor: default;
+    font-size: 14px !important;
+}
+
+.slick-row {
+    line-height: 23px;
+}
+
+.slick-row.active {
+    color: white !important;
+    background-color: cornflowerblue !important;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    flex-wrap: unset;
+}
+
+
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+.number-input {
+    text-align: right;
+}
+
+.modal-header {
+    padding: .5rem 1rem !important;
+    color: #fff;
+    background: linear-gradient(135deg, #1e66d1 0%, #2e86b0 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-close {
+    color: white !important;
+}
